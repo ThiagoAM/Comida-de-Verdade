@@ -2793,7 +2793,7 @@ function inicia_jogo() {
 		$("#caixa_dos_creditos").append("<br><br>");
 		$("#caixa_dos_creditos").append("<b>Conteúdo: licenciado em Creative Commons CC BY 3.0</b><br>");
 		$("#caixa_dos_creditos").append("<br><b>Apoio: Caisan/MDS </b><br><br>");
-		$("#caixa_dos_creditos").append("<b>Para ter acesso ao código fonte e referências, <a href='https://github.com/ThiagoAM/portfolio' target='_blank'>clique aqui!</a></b>");
+		$("#caixa_dos_creditos").append("<b>Para ter acesso ao código fonte e referências, <a href='https://github.com/ThiagoAM/comida_de_verdade_1_0' target='_blank'>clique aqui!</a></b>");
 	}
 
 } // Fim inicia_jogo()
