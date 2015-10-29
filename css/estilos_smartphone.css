@@ -1,0 +1,768 @@
+/*
+***** Estilos para SMARTPHONES - CSS do CONSEA! *****
+*/
+@media only screen and (min-width: 120px) and (min-device-width: 120px) and (max-device-width: 599px) {
+
+/* ----- ESTILOS GERAIS ----- */
+body {
+	background-color: #0e7646;
+	/* desabilita a seleção de texto: */
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} 
+
+h2 {
+	font-size: 4.0vw;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+/* ----- FIM ESTILOS GERAIS ----- */
+
+
+
+
+
+
+/*  -----# DIVS----- */
+
+#container {
+	min-width: 120px;
+	min-height: 200px;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-image: url("../imagens/fundos/fundo_smartphone.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#cabecalho_geral {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	background-color: none;
+	opacity: 1;
+	font-family: fonteConsea;
+	text-align: center;
+	color: white;
+	font-size: 250%;
+	line-height: 260%;
+}
+
+#caixa_imagens_jogo {
+	position: absolute;
+	width: 94%;
+	left: 3%;
+	height: 84%;
+	background-color: none;
+	top: 100px;
+}
+
+#marcador_de_acertos {
+	position: relative;
+	width: 60%;
+	height: auto;
+	background-color: none;
+	left: 1.5%;
+	top: 89.3%; 
+	opacity: 0.6;
+}
+
+#botoes_partida {
+	position: relative;
+	width: 100%;
+	height: 6.5%;
+	top: 93.5%;
+	opacity: 0.6;
+	background-color: none;
+}
+
+#holder_comentario_pontuacao {
+	position: relative;
+	width: 95%;
+	height: auto;
+	left: 2.5%;
+	background-color: none;
+	font-family: fonteConsea;
+	font-size: 5.0vw;
+	text-align: center;
+	color: white;
+	line-height: 110%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+#holder_dicas {
+	position: relative; 
+	width: 95%;
+	height: auto;
+	left: 2.5%;
+	background-color: none;
+	font-family: fonteConsea;
+	text-align: center;
+	font-size: 5.5vw;
+	color: white;
+	line-height: 110%;
+}
+
+#caixa_estrelas_atual {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	position: relative;
+	width: 65%;
+	height: auto;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#holder_pontuacao_atual {
+	background-color: none;
+	margin-bottom: -20px;
+	font-family: fonteConsea;
+	font-size: 5.0vw;
+	text-align: center;
+	color: white;
+}
+
+#holder_pontuacao_recorde {
+	font-family: fonteConsea;
+	font-size: 4.5vw;
+	text-align: center;
+	color: white;	
+	margin-top: 40px;
+	margin-bottom: -20px;
+}
+
+#caixa_estrelas_recorde {
+	position: relative;
+	width: 50%;
+	height: auto;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto; 
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#botao_ok {
+	width: 25%;
+	height: auto;
+	background-color: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#tela_fim_do_tempo {
+	position: absolute;
+	width: 90%;
+	height: 78%;
+	top: 11%;
+	left: 5%;
+	font-family: fonteConsea;
+	font-size: 7.0vw;
+	color: white;
+	text-align: center;
+}
+
+#tela_confirma_excluirJogador {
+	width: 85%;
+	height: 70%;
+	left: 7.5%;
+	top: 15%;
+	position: absolute;
+	background-color: #56231b;
+	font-family: fonteConsea;
+	font-size: 5.0vw;
+	color: white;
+	text-align: center;
+	line-height: 120%;
+	padding-top: 30px;
+}
+
+#menu_de_niveis {
+	position: absolute;
+	width: 100%;
+	background-color: none;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+}
+
+#holder_botoes_menu_opcoes {
+	position: relative;
+	width: 100%;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+	top: 100px;
+}
+
+#holder_botoes_escolha_apelidos {
+	position: relative;
+	width: 100%;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+	top: 100px;
+	background-color: none;
+}
+
+#caixa_dos_creditos {
+	position: absolute;
+	background-color: #0e7646;
+	width: 100%;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+	top: 100px;
+	font-family: fonteConsea;
+	text-align: center;
+	color: white;
+	font-size: 3.5vw;
+	line-height: 120%;
+}
+
+#holder_botao_logout {
+	background-color: none;
+	position: absolute;
+	height: 66px;
+	width: 66px;
+	top: 17px;
+	left: 12px;
+	opacity: 0.7;
+}
+
+#holder_botoes_configuracoes {
+	position: relative;
+	width: 100%;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+	top: 100px;
+	background-color: none;
+}
+
+#cabecalho_info_recordes {
+	position: absolute;
+	width: 100%;
+	height: 50px;	
+	background-color: #56231b;
+	opacity: 0.8;
+	top: 100px;
+}
+
+#holder_recordes {
+	position: absolute;
+	width: 100%;
+	background-color: none;
+	font-family: fonteConsea;
+	font-size: 8.0vw;
+	color: #0e7646;
+	text-align: center;
+	height: calc(100% - 150px);
+	height: -moz-calc(100% - 150px); 
+	height: -webkit-calc(100% - 150px);
+	height: -o-calc(100% - 150px);
+	top: 150px;
+}
+
+#holder_opcoes_desistir {
+	position: relative;
+	width: 90%;
+	height: auto;
+	left: 5%;
+	background-color: none;
+}
+
+#tela_desistir {
+	position: absolute;
+	width: 90%;
+	height: 45%;
+	left: 5%;
+	top: 27.5%;
+	font-family: fonteConsea;
+	font-size: 7.0vw;
+	color: white;
+	text-align: center;
+}
+
+#holder_botao_simOuNao {
+	position: absolute;
+	width: 100%;
+	height: 60%;
+	top: 40%;
+	background-color: none;
+}
+
+	.botao_sim {
+		position: absolute;
+		width: 25%;
+		height: auto;
+		left: 37.5%;
+		top: 20%;
+		background-image: url(../imagens/outros/branco020.png);
+	}
+	.botao_nao {
+		position: absolute;
+		width: 25%;
+		height: auto;
+		left: 37.5%;
+		top: 60%;
+		background-image: url(../imagens/outros/branco020.png);
+	}
+
+#tela_de_pergunta {
+	position: relative;
+	width: 95%;
+	height: 75%;
+	left: 2.5%;
+	top: 12.5%;
+	background-color: none;
+}
+
+#marcador_de_tempo {
+	position: absolute;
+	width: 9%;
+	height: 100%;
+	left: 88%;
+	background-color: none;
+	font-family: fonteConsea;
+}
+
+#holder_bolinhas_acerto {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+#tela_de_carregamento {
+	width: 100%;
+	height: 100%;
+	font-family: fonteConsea;
+	font-size: 7.0vw;
+	color: #0e7646;
+	text-align: center;
+	line-height: 150%;
+}
+
+#menu_de_opcoes {
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0%;
+	background-color: none;
+	position: absolute;
+}
+
+#holder_botao_pronto {
+	position: absolute;
+	width: 20%;
+	height: auto;
+	left: 40%;
+	top: 65%;
+	opacity: 1;
+}
+
+#holder_digite_apelido {
+	position: relative;
+	width: 90%;
+	height: auto;
+	left: 5%;
+	top: 22%;
+	background-color: none;
+	font-family: fonteConsea;
+	font-size: 9.5vw;
+	text-align: center;
+	color: #0e7646;
+	opacity: 1;
+}
+
+#tela_dica_completa {
+	position: absolute;
+	width: 90%;
+	height: 85%;
+	left: 3.5%;
+	top: 7.5%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: fonteConsea;
+	text-align: justify;
+	font-size: 4.0vw;
+	color: white;
+	line-height: 120%;
+}
+	
+/* 
+   -----FIM # DIVS----- 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+   ----- CLASSES -----
+*/
+
+.logo_carregamento {
+	width: 90%;
+	height: auto;
+	left: 5%;
+}
+
+.botao_fechar_dica {
+	top: 0;
+	left: 0;
+	width: 2.5%;
+	height: auto;
+}
+
+.botao_mais {
+	width: 4%;
+	height: auto;
+	position: relative;
+}
+
+.holder_relogio {
+	position: absolute;
+	top: 15px;
+	width: 10%;
+	height: auto;
+	left: 45%;
+}
+
+.botao_ver_detalhes {
+	position: absolute;
+	width: 40%;
+	height: auto;
+	left: 30%;
+	top: 12%;
+}
+
+.botao_iniciar {
+	position: absolute;
+	width: 27.5%;  
+	height: auto;
+	left: 36.25%;
+	top: 47.5%;
+	background-image: url(../imagens/outros/branco050.png);
+}
+
+.personagem_inicial {
+	position: absolute;
+	height: 47.5%;
+	widows: auto;
+	bottom: 0;
+	left: 5px;
+}
+
+.personagem_final {
+	position: absolute;
+	height: 45%;
+	widows: auto;
+	bottom: 0;
+	left: 5px;
+}
+
+.holder_dica_tempo {
+	position: relative;
+	width: 100%;
+	top: 22%;
+	background-color: none;
+	margin-bottom: 30%;
+}
+
+.holder_numero_nivel {
+	position: absolute;
+	width: 25%;
+	height: 35%;
+	left: 37.5%;
+	top: 38%;
+	background-color: none;
+	font-family: fonteConsea;
+	color: white;
+	font-size: 5.0vw;
+	text-align: center;
+	color: #167648;
+}
+.holder_numero_nivel_bloqueado {
+	position: absolute;
+	width: 25%;
+	height: 35%;
+	left: 37.5%;
+	top: 38%;
+	background-color: none;
+	font-family: fonteConsea;
+	color: white;
+	font-size: 5.0vw;
+	text-align: center;
+	color: #b2b2b2;
+}
+
+
+.holder_estrelas_telaNivel {
+	width: 60%;
+	height: auto;
+	background-color: none;
+	left: 20%;
+	position: absolute;
+	top: 10px;
+}
+
+.circulo_niveis {
+	position: absolute;
+	width: 60%;
+	left: 20%;
+	height: auto;
+	top: 20%;
+	opacity: 0.8;
+}
+
+.icone {
+	width: 70px;
+	height: 70px;
+	top: 14px;
+	position: absolute;
+	margin-left: -82px;
+	opacity: 0.5;
+}
+
+.botao_audio {
+	background-color: none;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin-left: 20px;
+	margin-top: 10px;
+	right: 3%;
+	opacity: 0.7;
+}
+
+.imagem_jogo {
+	width: 44%;
+	height: 92%;
+	top: 4%;
+	left: 2%;
+	position: relative;
+	background-color: none;
+	opacity: 100%;
+}
+
+.holder_cadeado {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.holder_descricao_imagem { 
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	bottom: 0;
+	opacity: 1;
+	left: 45%;
+	font-family: fonteConsea;
+	color: white;
+	font-size: 4.5vw;
+	text-align: left;
+	line-height: 120%;
+	padding-left: 22px;
+	line-height: 140%;
+	background-color: none;
+}
+
+.relogio {
+	font-size: 400%;
+	font-style: fonteConsea;
+	color: white;
+	background-color: none;
+}
+
+	.botao_config_excluirJogador {
+		position: absolute;
+		width: 74%;
+		left: 13%;
+		height: auto;
+		top: 35%;		
+	}
+	.botao_config_ligarMusica {
+		position: absolute;
+		width: 60%;
+		left: 20%;
+		height: auto;
+		top: 35%;		
+	}
+	.botao_config_desligarMusica {
+		position: absolute;
+		width: 74%;
+		left: 13%;
+		height: auto;
+		top: 35%;		
+	}
+	.botao_config_ligarEfeitosSonoros {
+		position: absolute;
+		width: 91%;
+		left: 4.5%;
+		height: auto;
+		top: 35%;		
+	}
+	.botao_config_desligarEfeitosSonoros {
+		position: absolute;
+		width: 91%;
+		left: 4.5%;
+		height: auto;
+		top: 35%;		
+	}
+
+.holder_geral {
+	width: 100%;
+	height: calc(100% - 100px);
+	height: -moz-calc(100% - 100px); 
+	height: -webkit-calc(100% - 100px);
+	height: -o-calc(100% - 100px);
+	top: 100px;
+	position: absolute;
+}
+
+.holder_info_pontuacaoRecorde {
+	background-color: #56231b;
+	opacity: 0.6;
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 100%;
+	font-family: fonteConsea;
+	font-size: 3.2vw;
+	text-align: left;
+	color: white;
+	line-height: 145%;
+}
+
+.holder_info_cabecalhoRecordes {
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 100%;
+	font-family: fonteConsea;
+	font-size: 3.2vw;
+	text-align: left;
+	color: white;
+	line-height: 160%;
+}
+
+.botao_voltar {
+	position: absolute;
+	height: 42px;
+	width: auto;
+	background-color: none;
+	top: 29px;
+	left: 5px;
+}
+
+.botao_fechar {
+	position: relative;
+	height: 42px;
+	width: auto;
+	background-color: none;
+	left: 8px;
+}
+
+.botao_desistir {
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	background-color: none;
+	top: 30px;
+	left: 3%;	
+}
+
+	.imagem_botao_play {  
+		position: relative;
+		background-color: none;
+		width: 55%;
+		height: auto;
+		left: 22.5%;
+		top: 21%;
+	}
+	.imagem_botao_recordes {
+		position: relative;
+		background-color: none;
+		width: 76%;
+		height: auto;
+		left: 12%;
+		top: 21%;
+	}
+	.imagem_botao_configuracoes {
+		position: relative;
+		background-color: none;
+		width: 99%;
+		height: auto;
+		left: 0.5%;
+		top: 21%;
+	}
+	.imagem_botao_credito {
+		position: relative;
+		background-color: none;
+		width: 77%;
+		height: auto;
+		left: 11.5%;
+		top: 21%;
+	}
+
+.pergunta {
+	position: absolute;
+	font-family: fonteConsea;
+	font-size: 6.0vw;
+	text-align: center;
+	color: white;
+	top: 2.5%;
+}
+
+.caixa_opcao {
+	width: 100%;
+	height: 33.33%;
+	position: relative;
+	float: left;
+	background-color: none;
+	margin-bottom: 10px;
+	opacity: 1;
+	background-image: url(../imagens/outros/branco020.png);
+	background-size: 100% 100%;
+}
+
+.botao_escolha_apelido {
+	position: relative;
+	width: 100%;
+	height: 20%;
+	font-family: fonteConsea;
+	text-align: center;
+	color: white;
+	font-size: 8.0vh;
+	line-height: 190%;
+}
+
+.div_nivel {
+	position: relative;
+	width: 25%; 
+	height: 20%;
+	background-color: none;
+	float: left;
+	top: 100px;
+	opacity: 1;
+}
+
+/* -----FIM . CLASSES----- */
+
+}

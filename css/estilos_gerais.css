@@ -1,0 +1,297 @@
+/*
+***** Estilos GERAIS CSS do CONSEA! *****
+
+	CORES:
+		MARROM: #56231b;
+		VERDE MUSGO: #0e7646;
+*/
+
+
+@font-face {
+	font-family: fonteConsea;
+	src: url(../fontes/myriad/MyriadPro-Regular.otf);
+} 
+
+
+/* ----- ESTILOS GERAIS ----- */
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {margin:0;padding:0;height:100%;}
+
+body:hover {
+    cursor: default;
+}
+
+a {
+	color: white;
+}
+
+/* ----- FIM ESTILOS GERAIS ----- */
+
+
+/*  -----# DIVS----- */
+
+#tela_de_configuracoes {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+	position: absolute;
+}
+
+#menu_de_creditos {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#tela_de_jogo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#caixa_pergunta {
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	background-color: none;
+	left: 5%;
+	opacity: 1;
+	margin-top: 40px;
+}
+
+#tela_final {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: none;
+	line-height: 220%;
+}
+
+#caixa_pontuacao_recorde {
+	position: relative;
+	width: 90%;
+	height: auto;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#caixa_pontuacao_atual {
+	position: relative;
+	width: 90%;
+	height: auto;
+	background-color: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#botao_desistir {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: none;
+}
+
+#botao_pular {
+	position: relative;
+	width: 33.3%;
+	height: 100%;
+	background-color: none;
+}
+
+#ajuda {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: none;
+	left: 95.5%;
+	top: 92%;
+	opacity: 0.6;
+}
+
+#oculta_tela_de_jogo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+	top: 0%;
+}
+
+#caixa_tempo {
+	position: relative;
+	width: 90%;
+	height: auto;
+	background-color: none;
+	left: 5%;
+}
+
+#tela_digita_apelido {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+#tela_escolha_apelido {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+	#apelido_jogador_0 {
+		background-color: #56231b;
+		opacity: 0.8;
+	}
+	#apelido_jogador_1 {
+		background-color: #56231b;
+		opacity: 0.775;
+	}
+	#apelido_jogador_2 {
+		background-color: #56231b;
+		opacity: 0.75;
+	}
+	#apelido_jogador_3 {
+		background-color: #56231b;
+		opacity: 0.7;
+	}
+	#apelido_jogador_4 {
+		background-color: #56231b;
+		opacity: 0.675;
+	}
+	#botao_criar_apelido {
+		background-color: #56231b;
+		opacity: 0.65;
+	}
+
+#menu_excluir_jogador {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#tela_invisivel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+
+#menu_de_recordes {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+/* 
+   -----FIM # DIVS----- 
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+   ----- CLASSES -----
+*/
+
+.holder_estrelas_telaNivel {
+	width: 40%;
+	height: 25px;
+	background-color: none;
+	left: 30%;
+	position: absolute;
+	top: 5px;
+}
+
+.bloqueio_de_nivel {
+	width: 100%;
+	height: 100%;
+	background-color: none;
+}
+
+.linha_recorde {
+	position: relative;
+	width: 100%;
+	height: 5%;
+	float: left;
+	background-color: none;
+}
+
+.entrada_apelido {
+	position: absolute;
+	width: 60%;
+	height: 10%;
+	left: 20%;
+	top: 45%;
+	border-style: solid;
+    border-width: 5px;
+	border-color: #167648;
+	font-size: 60px;
+	text-align: center;
+	color: #167648;
+	background-color: white;
+	opacity: 0.8;
+	outline: 0;
+}
+
+.botao_configuracao {
+	position: relative;
+	width: 100%;
+	height: 33.33%;
+	background-color: none;
+	font-family: fonteConsea;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+}
+
+.caixa_mensagem_recorde {
+	position: relative;
+	width: 90%;
+	height: auto;
+	background-color: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.botao {
+	width: 100%;
+	height: 25%;
+	left: 50%;
+}
+
+.botao_partida {
+	width: 33.3%;
+	height: 100%;
+	background-color: none;
+	float: left;
+}
+
+.imagem {
+	width: 100%;
+	height: 100%;
+}
+
+.imagem_escalavel_x {
+	width: 100%;
+	height: auto;
+}
+
+.imagem_escalavel_y {
+	height: 100%;
+	width: auto;
+}
+
+.marcador_acerto {
+	width: 5%; 
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	float: left;
+}
+
+/* -----FIM . CLASSES----- */
+
+
