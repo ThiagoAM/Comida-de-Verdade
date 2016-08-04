@@ -1,6 +1,6 @@
 function inicia_jogo() {
 	/*  
-			Ultima modificacao: 29/10/15
+			Ultima modificacao: 04/11/15
 			Escrito por: Thiago Anderson Martins (thiago_andersonmm@hotmail.com / thianmaru@icloud.com)
 			Código Fonte: https://github.com/ThiagoAM/portfolio
 			
@@ -1192,11 +1192,7 @@ function inicia_jogo() {
 	//				   ligado ou desligado, salvando a configuração ao final. 
 	//
 	function ligaOuDesliga_musica_jogador(numero_jogador) {
-		if (jogadores[numero_jogador].somLigado === true) {
-			jogadores[numero_jogador].somLigado = false;
-		} else {
-			jogadores[numero_jogador].somLigado = true;
-		}
+		jogadores[numero_jogador].somLigado = !jogadores[numero_jogador].somLigado;
 		toca_musica_de_fundo(musica);	
 		armazena_pontos();
 	}
